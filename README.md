@@ -39,6 +39,13 @@ const nombreDeTuFuncion =(obteniendoElElemento) => {
 > Nota: No olvides que es una buena práctica describir tu proyecto en este
 > archivo `README.md` :smiley:.
 
+4. Seleccionar section
+5. Extraer las imagenes existentes en la seccion y guardarlas en un array
+6. Limpiar seccion
+7. Crear una figure
+8. Meter primera img dentro de figure
+9. Añadir una figcaption cuyo contenido sea el alt de la imagen
+10. Repetir con todas las imagenes
 ***
 
 
