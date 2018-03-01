@@ -61,5 +61,8 @@ Pseudocódigo.
 
 1. Traer el elemento que contiene todas las imágenes, por su id que es "gallery"
 2. Declarar funcion y aplicarle al elemento contenedor, el metodo de array from para acceder a sus indices, que son las imágenes.
+3. Acceder a los atributos que necesitamos de cada indice, en este caso el alt y el src
+4. Concatenar por medio de un template los atributos obtenidos con las etiquetas figure y figcaption
+5. Aplicar metodo para reemplazar las etiquetas originales por el nuevo template
 
 
