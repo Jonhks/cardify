@@ -9,7 +9,7 @@ const getImg = element =>{
 
 
 const newElement = array =>{
-  let change = array.map(function(item){
+  let change = array.map((item) => {
   let newfigcaption = document.createElement("figcaption");
   newfigcaption.innerText = (item.alt);
 
@@ -17,7 +17,6 @@ const newElement = array =>{
   newFigure.appendChild(newfigcaption);
   newFigure.appendChild(item);
   imgContainer.appendChild(newFigure);
-
   })
 
 }
