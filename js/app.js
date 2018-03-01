@@ -1,3 +1,4 @@
+
 //elementos html
 let button = document.getElementById("btn");
 let gallery = document.getElementById("gallery");
@@ -15,3 +16,4 @@ function figure(){
         
     })
 }
+
