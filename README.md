@@ -41,4 +41,28 @@ const nombreDeTuFuncion =(obteniendoElElemento) => {
 
 ***
 
+# Mi readme
+
+Investigación sobre figure y figcaption.
+
+- FIGURE: La etiqueta <figure> especifica contenido autónomo, como ilustraciones, diagramas, fotos, listas de códigos, etc. Si bien el contenido del elemento <figure> está relacionado con el flujo principal, su posición es independiente del flujo principal, y si se elimina, no debería afectar el flujo del documento.
+
+- FIGCAPTION: El elemento figcaption representa un título o leyenda de un fragmento de contenido (figure). Un elemento figure representa a un trozo de documento autocontenido que se usa habitualmente para encerrar imágenes, gráficos, tablas de referencia, videos, poemas, fragmentos de código, etc.
+
+- Ejemplo de uso de ambas etiquetas:
+<figure>
+  <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2250&q=80" alt="Pietro De Grandi - Pragser Wildsee, Italy" />
+  <figcaption>"Pietro De Grandi - Pragser Wildsee, Italy"</figcaption>
+</figure>
+
+
+
+Pseudocódigo.
+
+1. Traer el elemento que contiene todas las imágenes, por su id que es "gallery"
+2. Declarar funcion y aplicarle al elemento contenedor, el metodo de array from para acceder a sus indices, que son las imágenes.
+3. Acceder a los atributos que necesitamos de cada indice, en este caso el alt y el src
+4. Concatenar por medio de un template los atributos obtenidos con las etiquetas figure y figcaption
+5. Aplicar metodo para reemplazar las etiquetas originales por el nuevo template
+
 
