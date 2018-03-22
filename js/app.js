@@ -112,3 +112,10 @@ let output = ' ';
 }
 
 loadPage();
+
+let notice = `<li class="collection-item avatar">
+                    <img src=${img} alt="" class="circle">
+                    <a href="#!" class="title">${title}<span class="title">Title</span></a>
+                    <p>${snippet}</p> 
+                  </li>`;
+                  console.log(notice);-
